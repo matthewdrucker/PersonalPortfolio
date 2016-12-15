@@ -25,7 +25,7 @@ h2{
 h3{
 	font-family: "Roboto", Geneva, serif;
 	font-size: 20px;
-	color: rgb(255,0,0);
+	color: #9370DB;
 	font-weight: bold;
 	text-align: center;
 }
@@ -62,12 +62,6 @@ table{
 
 .content{
 	color: white;
-}
-
-.container{
-	text-align: center;
-	color: yellow;
-	padding: 2px;
 }
 
 .content{
@@ -122,6 +116,10 @@ li a:hover:not(.active) {
     background-color: #E6E6FA;
 }
 
+li.container{
+	background-color:black;
+}
+
 .active {
     background-color: #D3D3D3;
 }
@@ -132,6 +130,13 @@ color: white;
 
 .myResume{
 	margin-left: 350px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+	background-color:#222222;
 }
 
 .contact{
