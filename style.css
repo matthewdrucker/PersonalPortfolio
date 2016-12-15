@@ -1,0 +1,225 @@
+body{
+	font-family: "Lato", Helvetica, san-serif;
+	font-size: 18px;
+	background-color: #222222;
+}
+
+.header{ 
+	position: center;
+}
+
+h1{
+	font-family: "Arimo", Geneva, serif;
+	font-size: 26px;
+	color: rgb(211,211,211);
+	text-align: center;
+}
+
+h2{
+	font-family: "Raleway", Georgia, san-serif;
+	font-size: 22px;
+	color: rgb(211,211,211);
+	text-align: center;
+}
+
+h3{
+	font-family: "Roboto", Geneva, serif;
+	font-size: 20px;
+	color: rgb(255,0,0);
+	font-weight: bold;
+	text-align: center;
+}
+
+.about{
+	margin-top: 75px;
+	margin-bottom: 75px;
+	margin-left: 150px;
+}
+
+.myResume{
+	margin-top: 75px;
+	margin-bottom:75px;
+	margin-left: 150px;
+	color:white;
+}
+
+.myResume a{
+	color: white;
+}
+
+.mySkills{
+	color: white;
+	margin-left: 325px;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+
+table{
+	display: table;
+	border-spacing: 3px;
+	border-color: black;
+}
+
+.content{
+	color: white;
+}
+
+.container{
+	text-align: center;
+	color: yellow;
+	padding: 2px;
+}
+
+.content{
+	font-size: 19px;
+}
+
+.nav{
+	background-color: rgb(234,237,30);
+	color: white;
+	width: 183px;
+}
+
+a {
+	color: black;
+}
+
+ul li{
+	text-decoration: none;
+	border: solid 1.5px white;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9370DB;
+}
+
+li {
+    float: left;
+    position: relative;
+    left: 400px;
+    border: 2px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #E6E6FA;
+}
+
+.active {
+    background-color: #D3D3D3;
+}
+
+p {
+color: white;
+}
+
+.myResume{
+	margin-left: 350px;
+}
+
+.contact{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 450px;
+	padding: 15px;
+	width: 50%;
+	border-top: solid 4px yellow;
+}
+
+.footer{
+	background-color: #9370DB;
+	text-align: center;
+}
+
+.footer p{
+	color: black;
+}
+
+/*-- Modal Styles --*/
+.modal {
+	z-index: 10000;
+	display: none;
+	padding-top: 50px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+	margin: 0 auto;
+	position: relative;
+	padding: 0;
+	width: 35%;
+}
+
+.closebtn {
+	text-decoration: none;
+	float: right;
+	font-weight: bold;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	font-size: 72px;
+	color: #fff;
+  background-color: black;
+}
+
+.closebtn:hover, .closebtn:focus {
+	text-decoration: none;
+	cursor: pointer;
+  background-color: gray;
+}
+
+.container{
+	padding: 0.3em 0.3em;
+}
+
+.container:after,.panel:after,.row:after,.row-padding:after,.topnav:after,.clear:after,.btn-group:before,.btn-group:after,.btn-bar:before,.btn-bar:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.modal-content {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+.animate-zoom {
+	-webkit-animation: zoom 0.6s;
+	animation: zoom 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0);}
+    to {-webkit-transform:scale(1);}
+}
+
+@keyframes zoom {
+    from {transform:scale(0);}
+    to {transform:scale(1);}
+}
